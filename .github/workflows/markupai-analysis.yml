@@ -1,0 +1,43 @@
+name: Markup AI Content Analysis
+
+# Trigger on various events to demonstrate different use cases
+on:
+  # Push events - analyze changed files
+  push:
+  # Pull request events - analyze PR changes
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 8 * * *'
+  # Manual trigger for full repository analysis
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  statuses: write
+
+jobs:
+  # Basic content analysis job
+  analyze-content:
+    name: Content Quality Analysis
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history for better analysis
+      
+      # Run Markup AI Analysis
+      - name: Run Markup AI Analysis
+        id: markupai-analysis
+        uses: markupai/markupai-github-action@v0.0.6
+        with:
+          tone: formal
+          dialect: american_english
+          style-guide: microsoft
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MARKUP_AI_TOKEN: ${{ secrets.MARKUP_AI_TOKEN }}
