@@ -33,7 +33,7 @@ jobs:
       # Run Markup AI Analysis
       - name: Run Markup AI Analysis
         id: markupai-analysis
-        uses: markupai/markupai-github-action@v0.0.6
+        uses: markupai/markupai-github-action@v0.0.1
         with:
           tone: formal
           dialect: american_english
