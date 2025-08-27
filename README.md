@@ -144,10 +144,10 @@ The action provides comprehensive quality metrics:
 
 ## 🔗 Related Resources
 
-- **[Markup AI](https://github.com/markupai/github-action)**: Main action repository
-- **[Documentation](https://github.com/markupai/github-action#readme)**: Complete usage guide
-- **[Issues](https://github.com/markupai/github-action/issues)**: Report bugs or request features
-- **[Discussions](https://github.com/markupai/github-action/discussions)**: Community discussions
+- **[Markup AI](https://github.com/markupai/content-guardian-action)**: Main action repository
+- **[Documentation](https://github.com/markupai/content-guardian-action#readme)**: Complete usage guide
+- **[Issues](https://github.com/markupai/content-guardian-action/issues)**: Report bugs or request features
+- **[Discussions](https://github.com/markupai/content-guardian-action/discussions)**: Community discussions
 
 ## 🛠️ Customization
 
@@ -160,9 +160,9 @@ You can customize this demo by:
 
 ## 📞 Support
 
-- **Documentation**: [GitHub README](https://github.com/markupai/github-action#readme)
-- **Issues**: [GitHub Issues](https://github.com/markupai/github-action/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/markupai/github-action/discussions)
+- **Documentation**: [GitHub README](https://github.com/markupai/content-guardian-action#readme)
+- **Issues**: [GitHub Issues](https://github.com/markupai/content-guardian-action/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/markupai/content-guardian-action/discussions)
 
 ---
 
