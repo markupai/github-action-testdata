@@ -162,7 +162,6 @@ You can customize this demo by:
 
 - **Documentation**: [GitHub README](https://github.com/markupai/content-guardian-action#readme)
 - **Issues**: [GitHub Issues](https://github.com/markupai/content-guardian-action/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/markupai/content-guardian-action/discussions)
 
 ---
 
