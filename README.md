@@ -25,7 +25,7 @@ This repository contains sample content files and a comprehensive GitHub Actions
 1. **Fork or Clone** this repository
 2. **Add Secrets** in your repository settings:
    - Go to Settings → Secrets and variables → Actions
-   - Add `MARKUP_AI_TOKEN` with your API token
+   - Add `MARKUP_AI_API_KEY` with your API token
 3. **Enable Actions** if not already enabled
 
 ### Triggering Analysis

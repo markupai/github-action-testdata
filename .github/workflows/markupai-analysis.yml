@@ -33,11 +33,11 @@ jobs:
       # Run Markup AI Analysis
       - name: Run Markup AI Analysis
         id: markupai-analysis
-        uses: markupai/content-guardian-action@v0.0.5
+        uses: markupai/content-guardian-action@v0.0.6
         with:
           tone: formal
           dialect: american_english
           style-guide: microsoft
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MARKUP_AI_TOKEN: ${{ secrets.MARKUP_AI_TOKEN }}
+          MARKUP_AI_API_KEY: ${{ secrets.MARKUP_AI_API_KEY }}
