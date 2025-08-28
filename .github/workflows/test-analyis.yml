@@ -1,0 +1,29 @@
+name: Markup AI Content Analysis
+
+on:
+  pull_request:
+    paths:
+      - '**.md'
+      - '**.txt'
+  push:
+    branches: [main, develop]
+    paths:
+      - '**.md'
+      - '**.txt'
+  workflow_dispatch:
+
+jobs:
+  analyze-content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Markup AI Analysis
+        uses: markupai/content-guardian-action@v0.0.6
+        with:
+          markup_ai_api_key: ${{ secrets.MARKUP_AI_API_KEY }}
+          dialect: american_english
+          tone: formal
+          style-guide: microsoft
+          github_token: ${{ secrets.GITHUB_TOKEN }}
