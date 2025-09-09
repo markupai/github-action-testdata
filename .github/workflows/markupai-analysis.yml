@@ -33,7 +33,7 @@ jobs:
       # Run Markup AI Analysis
       - name: Run Markup AI Analysis
         id: markupai-analysis
-        uses: markupai/content-guardian-action@v0.0.8
+        uses: markupai/content-guardian-action@v0.0.9
         with:
           tone: professional
           dialect: american_english
