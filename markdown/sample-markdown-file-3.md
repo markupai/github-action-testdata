@@ -1,6 +1,6 @@
 ### Article 3: Generative AI - A New Era of Innovation
 
-Generative AI is a **catalyst for innovation**, driving the creation of new products, services, and business models. Its capacity to produce original content from scratch is paving the way for groundbreaking advancements in fields from medicine to entertainment.
+Generative AI is a **catalyst for innovation**, driving the creation of new products, services, and business models. Its capacity to produce original content from scratch is paving the way for groundbreaking advancements in fields from medicine to entertainment
 
 In the field of **scientific research**, generative AI is accelerating discovery. It can be used to design new drug molecules, create novel materials with specific properties, and simulate complex biological processes. This significantly shortens the time and reduces the cost of research and development, enabling scientists to make breakthroughs faster than ever before. For example, AI can analyze countless chemical combinations to predict which ones are most likely to be effective against a particular disease, guiding researchers toward the most promising paths.
 
