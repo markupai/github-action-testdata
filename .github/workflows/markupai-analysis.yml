@@ -40,4 +40,4 @@ jobs:
           style-guide: microsoft
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MARKUP_AI_API_KEY: ${{ secrets.MARKUP_AI_API_KEY }}
+          MARKUP_AI_API_KEY: ${{ secrets.MARKUP_AI_API_KEY_DEV }}
