@@ -23,8 +23,8 @@ jobs:
       - name: Run Markup AI Analysis
         uses: markupai/content-guardian-action@v1
         with:
-          # the `tone` parameter is optional and may be omitted
-          tone: professional
+          # the `tone` parameter is optional; valid values: formal, informal, academic
+          tone: formal
           dialect: american_english
           style-guide: microsoft
         env:
