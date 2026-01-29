@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "topic.dtd" [
+<!ENTITY nbsp "&#160;">
+]>
+<topic id="markupai_cli_en_strings" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>Markup AI CLI Localization Strings TEsting</title>
+<shortdesc>Localization strings for the Markup AI CLI command-line tool interface.</shortdesc>
+<body>
+<foreign outputclass="xml" domain="markupai">
+<acroStrings>
+    <stringEntry id="BATCH_CLIENT.ABOUT.COPYRIGHT">
+        <string xml:lang="en">(c) Copyright 2025 Markup AI.%nAll rights reserved.%n</string>
+    </stringEntry>
+    <stringEntry id="BATCH_CLIENT.ABOUT.VERSION_X_BUILD_X_BUILD_DATE_X">
+        <string xml:lang="en">Version: %s%nBuild: %s%nBuild Date: %s%n</string>
+    </stringEntry>
+    <stringEntry id="BATCH_CLIENT.APPLICATION_NAME">
+        <string xml:lang="en">Markup AI CLI</string>
+    </stringEntry>
+    <stringEntry id="BATCH_CLIENT.FILETYPE.GML">
+        <string xml:lang="en">GML</string>
+    </stringEntry>
+    <stringEntry id="BATCH_CLIENT.FILETYPE.HTML">
+        <string xml:lang="en">HTML</string>
+    </stringEntry>
+    <stringEntry id="BATCH_CLIENT.FILETYPE.PDF">
+        <string xml:lang="en">PDF</string>
+    </stringEntry>
+    <stringEntry id="BATCH_CLIENT.FILETYPE.TEXT">
+        <string xml:lang="en">Text</string>
+    </stringEntry>
+    <stringEntry id="BATCH_CLIENT.FILETYPE.XML">
+        <string xml:lang="en">XML</string>
+    </stringEntry>
+    <stringEntry id="BATCH_CLIENT.HELP_CONTENT_FILE">
+        <string xml:lang="en">https://docs.markup.ai</string>
+    </stringEntry>
+    <stringEntry id="BATCH_CLIENT.STARTING.ENGINE">
+        <string xml:lang="en">Initializing Markup AI CLI engine ...</string>
+    </stringEntry>
+    <stringEntry id="BATCH_CLIENT.STARTING.MAIN_WINDOW">
+        <string xml:lang="en">Initializing Markup AI CLI ...</string>
+    </stringEntry>
+    <stringEntry id="BATCH_CLIENT.STARTING.USER_INTERFACE">
+        <string xml:lang="en">Markup AI CLI interface ...</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.ADD_FILE_TYPE">
+        <string xml:lang="en">Add File Type</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.APPLY_CORRECTIONS">
+        <string xml:lang="en">Apply Corrections</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.BATCHCHECKER_MESSAGES_NEXT_MESSAGE">
+        <string xml:lang="en">Next Notification</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.BATCHCHECKER_MESSAGES_PREVIOUS_MESSAGE">
+        <string xml:lang="en">Previous Notification</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.BUTTON.BATCHCHECKER_MESSAGES_CLOSE">
+        <string xml:lang="en">Close</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.CANCEL">
+        <string xml:lang="en">Cancel</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.CHECK">
+        <string xml:lang="en">Check</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.CHOOSE_FILE">
+        <string xml:lang="en">Choose File...</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.CLEAR_ALL">
+        <string xml:lang="en">Deselect All</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.CLOSE">
+        <string xml:lang="en">Close</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.CONNECTOR_CONFIGURE">
+        <string xml:lang="en">Configure</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.CONNECTOR_FIND">
+        <string xml:lang="en">Find Files</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.COPY_TO_CLIPBOARD">
+        <string xml:lang="en">Copy to Clipboard</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.CREDENTIAL_DIALOG_CANCEL_CRAWLING">
+        <string xml:lang="en">Cancel</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.CREDENTIAL_DIALOG_SKIP_ALL">
+        <string xml:lang="en">Skip All</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.CREDENTIAL_DIALOG_SKIP_PAGE">
+        <string xml:lang="en">Skip Page</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.FIND_FILES">
+        <string xml:lang="en">Find Files</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.FIND_WEBSITES">
+        <string xml:lang="en">Find Web Pages</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.LOAD">
+        <string xml:lang="en">Load</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.NEW_FILE_SELECTION">
+        <string xml:lang="en">New Selection</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.NO">
+        <string xml:lang="en">No</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.OK">
+        <string xml:lang="en">OK</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.REFRESH_SERVER_CONNECTION">
+        <string xml:lang="en">Test API Connection</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.REMOVE_FILE_TYPE">
+        <string xml:lang="en">Remove File Type</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.SAVE">
+        <string xml:lang="en">Save</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.SAVE_SESSION">
+        <string xml:lang="en">Save Session</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.SELECT_ALL">
+        <string xml:lang="en">Select All</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.START_SCAN_AND_CHECK">
+        <string xml:lang="en">Start Scan and Check</string>
+    </stringEntry>
+    <stringEntry id="BUTTON.YES">
+        <string xml:lang="en">Yes</string>
+    </stringEntry>
+    <stringEntry id="LABEL.BATCHCHECKER_MESSAGES_TABLE">
+        <string xml:lang="en">System Notifications</string>
+    </stringEntry>
+    <stringEntry id="LABEL.BC.CHECK_OPTIONS.CHECK_RULE_PRIO">
+        <string xml:lang="en">Apply rule priorities</string>
+    </stringEntry>
+    <stringEntry id="LABEL.BC.CHECK_OPTIONS.CHECK_RULE_PRIO.TOOLTIP">
+        <string xml:lang="en">Configure the rule priority threshold. Rules which have a lower priority than the threshold are ignored.</string>
+    </stringEntry>
+    <stringEntry id="LABEL.BC.CHECK_OPTIONS.RULE_PRIO_THRESHOLD">
+        <string xml:lang="en">Rule priority threshold</string>
+    </stringEntry>
+    <stringEntry id="LABEL.BREAK_LEVEL_NONE">
+        <string xml:lang="en">No break</string>
+    </stringEntry>
+    <stringEntry id="LABEL.BREAK_LEVEL_SENTENCE">
+        <string xml:lang="en">Sentence break</string>
+    </stringEntry>
+    <stringEntry id="LABEL.BREAK_LEVEL_TOKEN">
+        <string xml:lang="en">Default</string>
+    </stringEntry>
+    <stringEntry id="LABEL.CHECKING">
+        <string xml:lang="en">Checking:</string>
+    </stringEntry>
+    <stringEntry id="LABEL.CHECK_SETTINGS">
+        <string xml:lang="en">Check Options</string>
+    </stringEntry>
+    <stringEntry id="LABEL.CHECK_SUBTASK_ITEM_N_NAME">
+        <string xml:lang="en">Checking document %d: %s</string>
+    </stringEntry>
+    <stringEntry id="LABEL.CREDENTIAL_DIALOG_ENTER_USERNAME_AND_PASSWORD">
+        <string xml:lang="en">Login details are required to scan &quot;%s&quot; on &quot;%s&quot;. Enter a user name and password. The password will not be stored on your computer.</string>
+    </stringEntry>
+    <stringEntry id="LABEL.CSD">
+        <string xml:lang="en">CSD</string>
+    </stringEntry>
+    <stringEntry id="LABEL.CUSTOM_NAMED_TERMS_X">
+        <string xml:lang="en">%s terms</string>
+    </stringEntry>
+    <stringEntry id="LABEL.EMPTY_REALM">
+        <string xml:lang="en">web pages</string>
+    </stringEntry>
+    <stringEntry id="LABEL.ENCODING">
+        <string xml:lang="en">Encoding</string>
+    </stringEntry>
+    <stringEntry id="LABEL.ENTERED_X_URLS">
+        <string xml:lang="en">%s URLs entered</string>
+    </stringEntry>
+    <stringEntry id="LABEL.EXCLUSION_MODE_EXCLUSION">
+        <string xml:lang="en">Hard Exclusion</string>
+    </stringEntry>
+    <stringEntry id="LABEL.EXCLUSION_MODE_SOFT_EXCLUSION">
+        <string xml:lang="en">Soft Exclusion</string>
+    </stringEntry>
+    <stringEntry id="LABEL.EXTERNAL_CONNECTOR_SELECTION">
+        <string xml:lang="en">External connector</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FEEDBACK_DIALOG.COMMENT">
+        <string xml:lang="en">Comment:</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FEEDBACK_DIALOG.CORRECTION">
+        <string xml:lang="en">Correction:</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FEEDBACK_DIALOG.FLAG">
+        <string xml:lang="en">Flag type:</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FEEDBACK_DIALOG.FLAGGED_TEXT">
+        <string xml:lang="en">Flagged text:</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FEEDBACK_DIALOG.NEW_TERM">
+        <string xml:lang="en">New term:</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FEEDBACK_DIALOG.SPELLING_ERROR">
+        <string xml:lang="en">Spelling issue</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FEEDBACK_DIALOG.SUGGESTIONS">
+        <string xml:lang="en">Suggestions:</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FILES">
+        <string xml:lang="en">Files</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FILESIZE">
+        <string xml:lang="en">Size</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FILETYPE.JAVA_SERIALIZATION">
+        <string xml:lang="en">Check and Apply session</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FILE_CHECK">
+        <string xml:lang="en">File check</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FILE_NAME">
+        <string xml:lang="en">File Name</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FILE_TYPE">
+        <string xml:lang="en">File type</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FILE_TYPE_APPLICABLE_SUFFIXES">
+        <string xml:lang="en">Applicable suffixes</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FILE_TYPE_INPUT_TYPE">
+        <string xml:lang="en">Input type</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FILE_TYPE_NAME">
+        <string xml:lang="en">Name</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FILE_TYPE_PROPERTIES">
+        <string xml:lang="en">File Type</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FILTER_SELECTION">
+        <string xml:lang="en">Filter selection</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FINISHED_SCANNING">
+        <string xml:lang="en">Scanning complete.</string>
+    </stringEntry>
+    <stringEntry id="LABEL.FLAGGED_TERM_WITHOUT_SUGGESTIONS">
+        <string xml:lang="en">No suggestions available</string>
+    </stringEntry>
+    <stringEntry id="LABEL.GRAMMAR">
+        <string xml:lang="en">Grammar</string>
+    </stringEntry>
+    <stringEntry id="LABEL.INCLUDE_SUBDIRECTORIES">
+        <string xml:lang="en">Include subdirectories</string>
+    </stringEntry>
+    <stringEntry id="LABEL.INPUT_TEXT_PREVIEW">
+        <string xml:lang="en">Input Text Preview</string>
+    </stringEntry>
+    <stringEntry id="LABEL.ITEMS_IN_CHECK_QUEUE_X_X_ALREADY_CHECKED">
+        <string xml:lang="en">{0} documents to be checked ({1} already checked).</string>
+    </stringEntry>
+    <stringEntry id="LABEL.ITEMS_IN_CHECK_QUEUE_X_X_ALREADY_CHECKED_1">
+        <string xml:lang="en">1 document to be checked ({0} already checked).</string>
+    </stringEntry>
+    <stringEntry id="LABEL.LANGUAGE">
+        <string xml:lang="en">Language</string>
+    </stringEntry>
+    <stringEntry id="LABEL.LOAD_CHECK_SETTINGS">
+        <string xml:lang="en">Load check settings</string>
+    </stringEntry>
+    <stringEntry id="LABEL.LOAD_FILE_SETTINGS">
+        <string xml:lang="en">Load file settings</string>
+    </stringEntry>
+    <stringEntry id="LABEL.LOCAL_DOCUMENT_ROOT_FOLDER_SELECTION">
+        <string xml:lang="en">Files</string>
+    </stringEntry>
+    <stringEntry id="LABEL.MARK_ADMITTED_TERMS">
+        <string xml:lang="en">Admitted terms</string>
+    </stringEntry>
+    <stringEntry id="LABEL.MARK_DEPRECATED_TERMS">
+        <string xml:lang="en">Deprecated terms</string>
+    </stringEntry>
+    <stringEntry id="LABEL.MARK_VALID_TERMS">
+        <string xml:lang="en">Valid terms</string>
+    </stringEntry>
+    <stringEntry id="LABEL.MAX_COUNT">
+        <string xml:lang="en">Maximum page count</string>
+    </stringEntry>
+    <stringEntry id="LABEL.MAX_LINK_DEPTH">
+        <string xml:lang="en">Maximum link depth</string>
+    </stringEntry>
+    <stringEntry id="LABEL.METATAG_NAME">
+        <string xml:lang="en">Meta tag name</string>
+    </stringEntry>
+    <stringEntry id="LABEL.METATAG_VALUE">
+        <string xml:lang="en">Meta tag content</string>
+    </stringEntry>
+    <stringEntry id="LABEL.NAME">
+        <string xml:lang="en">Name</string>
+    </stringEntry>
+    <stringEntry id="LABEL.NEW_TERMS">
+        <string xml:lang="en">New terms</string>
+    </stringEntry>
+    <stringEntry id="LABEL.N_DOCUMENTS_PROCESSED_SUCCESSFULLY">
+        <string xml:lang="en">{0} documents processed successfully.</string>
+    </stringEntry>
+    <stringEntry id="LABEL.N_DOCUMENTS_PROCESSED_WITH_M_ERRORS._PLEASE_SEE_TABLE_BELOW_FOR_DETAILS">
+        <string xml:lang="en">{0} documents processed. {1} errors occurred while applying corrections.</string>
+    </stringEntry>
+    <stringEntry id="LABEL.ONE_DOCUMENTS_PROCESSED_SUCCESSFULLY">
+        <string xml:lang="en">One document was processed successfully.</string>
+    </stringEntry>
+    <stringEntry id="LABEL.ONE_DOCUMENT_PROCESSED_WITH_ERROR._PLEASE_SEE_TABLE_BELOW_FOR_DETAILS">
+        <string xml:lang="en">One document processed. An error occurred while applying corrections.</string>
+    </stringEntry>
+    <stringEntry id="LABEL.PASSWORD">
+        <string xml:lang="en">Password</string>
+    </stringEntry>
+    <stringEntry id="LABEL.PATH">
+        <string xml:lang="en">Path</string>
+    </stringEntry>
+    <stringEntry id="LABEL.PLEASE_ENTER_OR_PASTE_YOUR_LIST_OF_URLS">
+        <string xml:lang="en">Enter or paste a list of URLs to check</string>
+    </stringEntry>
+    <stringEntry id="LABEL.PREPROCESS_EXPORTED_WORD">
+        <string xml:lang="en">Add sentence break at end of each line</string>
+    </stringEntry>
+    <stringEntry id="LABEL.PROCESSING_CONFIGURATION">
+        <string xml:lang="en">Processing Configuration</string>
+    </stringEntry>
+    <stringEntry id="LABEL.RECONC_HYPHEN_WORDS">
+        <string xml:lang="en">Re-concatenate hyphenated words</string>
+    </stringEntry>
+    <stringEntry id="LABEL.REMOVE_DUPLICATE_WORD">
+        <string xml:lang="en">Remove Repeated word</string>
+    </stringEntry>
+    <stringEntry id="LABEL.REPORT_SUMMARY">
+        <string xml:lang="en">Report Summary</string>
+    </stringEntry>
+    <stringEntry id="LABEL.REUSE">
+        <string xml:lang="en">Reuse</string>
+    </stringEntry>
+    <stringEntry id="LABEL.REUSE_SENTENCE_BANK">
+        <string xml:lang="en">Reuse sentence bank</string>
+    </stringEntry>
+    <stringEntry id="LABEL.RULE_SET">
+        <string xml:lang="en">Rule set</string>
+    </stringEntry>
+    <stringEntry id="LABEL.SCANNING">
+        <string xml:lang="en">Scanning:</string>
+    </stringEntry>
+    <stringEntry id="LABEL.SERVER">
+        <string xml:lang="en">Platform</string>
+    </stringEntry>
+    <stringEntry id="LABEL.SORT_BY_POSITION_AT_PDF_EXTRACTION">
+        <string xml:lang="en">Use alternative text extraction</string>
+    </stringEntry>
+    <stringEntry id="LABEL.SPELLING">
+        <string xml:lang="en">Spelling</string>
+    </stringEntry>
+    <stringEntry id="LABEL.STYLE">
+        <string xml:lang="en">Style</string>
+    </stringEntry>
+    <stringEntry id="LABEL.TERM_BANKS">
+        <string xml:lang="en">Term sets:</string>
+    </stringEntry>
+    <stringEntry id="LABEL.TMX_LANGUAGE_SELECTION">
+        <string xml:lang="en">TMX language</string>
+    </stringEntry>
+    <stringEntry id="LABEL.UNKNOWN_WORD">
+        <string xml:lang="en">Unknown word</string>
+    </stringEntry>
+    <stringEntry id="LABEL.URL">
+        <string xml:lang="en">Starting address</string>
+    </stringEntry>
+    <stringEntry id="LABEL.URL_FILTER">
+        <string xml:lang="en">URL filter</string>
+    </stringEntry>
+    <stringEntry id="LABEL.USER_NAME">
+        <string xml:lang="en">User name</string>
+    </stringEntry>
+    <stringEntry id="LABEL.WEBSITE_SELECTION">
+        <string xml:lang="en">Websites</string>
+    </stringEntry>
+    <stringEntry id="LABEL.WEB_CHECK">
+        <string xml:lang="en">Web check</string>
+    </stringEntry>
+    <stringEntry id="LABEL.WEB_CHECKING_IS_NOT_LICENSED">
+        <string xml:lang="en">The web checking feature is not licensed for use.</string>
+    </stringEntry>
+    <stringEntry id="LABEL.WRAP_TEXT">
+        <string xml:lang="en">Wrap text</string>
+    </stringEntry>
+    <stringEntry id="MENU.FILE">
+        <string xml:lang="en">File</string>
+    </stringEntry>
+    <stringEntry id="MENU.HELP">
+        <string xml:lang="en">Help</string>
+    </stringEntry>
+    <stringEntry id="MENU.ITEM.BC.NEXT_MARKING">
+        <string xml:lang="en">&amp;Next Flag\	Alt+N</string>
+    </stringEntry>
+    <stringEntry id="MENU.ITEM.BC.PREVIOUS_MARKING">
+        <string xml:lang="en">&amp;Previous Flag\	Alt+P</string>
+    </stringEntry>
+    <stringEntry id="MENU.ITEM.CHECK_AND_APPLY">
+        <string xml:lang="en">Check and Apply</string>
+    </stringEntry>
+    <stringEntry id="MENU.ITEM.FEEDBACK.ACCEPT_FLAG">
+        <string xml:lang="en">Accept Flag</string>
+    </stringEntry>
+    <stringEntry id="MENU.ITEM.FEEDBACK.COMMENT_FLAG">
+        <string xml:lang="en">Submit Comment on Flag</string>
+    </stringEntry>
+    <stringEntry id="MENU.ITEM.FEEDBACK.SUBMIT_CORRECTION">
+        <string xml:lang="en">Submit Correction for Flag</string>
+    </stringEntry>
+    <stringEntry id="MENU.ITEM.LOAD_CHECK_APPLY_SESSION">
+        <string xml:lang="en">Load Check and Apply Session</string>
+    </stringEntry>
+    <stringEntry id="MENU.ITEM.MENU_ITEM.OPEN_SOURCE_FILE">
+        <string xml:lang="en">Open Source File</string>
+    </stringEntry>
+    <stringEntry id="MENU.ITEM.SCAN_AND_CHECK_WIZARD">
+        <string xml:lang="en">Scan and Check</string>
+    </stringEntry>
+    <stringEntry id="MENU.ITEM.X_TERM_FLAG">
+        <string xml:lang="en">%s Term</string>
+    </stringEntry>
+    <stringEntry id="MENU.RESULTS">
+        <string xml:lang="en">Results</string>
+    </stringEntry>
+    <stringEntry id="MENU.TOOLS">
+        <string xml:lang="en">Tools</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.ABOUT_ACROCHECK_BATCH_CLIENT">
+        <string xml:lang="en">About Markup AI CLI</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.ANALYZE_SEGMENTATION">
+        <string xml:lang="en">Analyze Segmentation</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.EXIT">
+        <string xml:lang="en">Exit</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.HELP">
+        <string xml:lang="en">Help</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.HELP_CONTENTS">
+        <string xml:lang="en">Help</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.IGNORE_ALL">
+        <string xml:lang="en">Ignore All</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.IGNORE_TERM">
+        <string xml:lang="en">Ignore Term</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.LOAD_SETTINGS">
+        <string xml:lang="en">Load Settings...</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.MANAGE_FILE_TYPES">
+        <string xml:lang="en">Manage File Types</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.NEXT_MARKING">
+        <string xml:lang="en">Next Flag</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.PREVIOUS_MARKING">
+        <string xml:lang="en">Previous Flag</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.REPEATED_WORD_FLAG">
+        <string xml:lang="en">Repeated Word Flag</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.SAVE_SETTINGS_AS">
+        <string xml:lang="en">Save Settings As...</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.SHOW_AGGREGATED_REPORT">
+        <string xml:lang="en">Show Aggregated Report</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.SHOW_FLAGS_IN_DOCUMENT">
+        <string xml:lang="en">Show Flags in Document</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.SHOW_REPORT">
+        <string xml:lang="en">Show Report</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.SPELLING_FLAG">
+        <string xml:lang="en">Spelling Flag</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.STANDARDS_AND_GUIDELINES">
+        <string xml:lang="en">Standards and Guidelines</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.SUBMIT_TERM">
+        <string xml:lang="en">Contribute Term</string>
+    </stringEntry>
+    <stringEntry id="MENU_ITEM.SUGGESTIONS">
+        <string xml:lang="en">Suggestions</string>
+    </stringEntry>
+    <stringEntry id="MSG.CANCELLING_CHECK_ON_SERVER">
+        <string xml:lang="en">Canceling check request</string>
+    </stringEntry>
+    <stringEntry id="MSG.CHECKING_N1_DOCUMENTS">
+        <string xml:lang="en">Checking 1 document.</string>
+    </stringEntry>
+    <stringEntry id="MSG.CHECKING_N_DOCUMENTS">
+        <string xml:lang="en">Checking %d documents.</string>
+    </stringEntry>
+    <stringEntry id="MSG.CHECK_CANCELLED">
+        <string xml:lang="en">Check canceled.</string>
+    </stringEntry>
+    <stringEntry id="MSG.CHECK_COMPLETED">
+        <string xml:lang="en">Check completed</string>
+    </stringEntry>
+    <stringEntry id="MSG.CONNECTING_TO_SERVER_X">
+        <string xml:lang="en">Connecting to Markup AI platform</string>
+    </stringEntry>
+    <stringEntry id="MSG.ERR.ACROCHECK_ERROR_X">
+        <string xml:lang="en">A Markup AI error occurred:%n%s</string>
+    </stringEntry>
+    <stringEntry id="MSG.ERR.SERVER">
+        <string xml:lang="en">Error processing request on Markup AI platform.</string>
+    </stringEntry>
+    <stringEntry id="MSG.ERROR.BC.ID_16_INVALID_CLIENT_SESSION">
+        <string xml:lang="en">No session has been allocated but your license requires the client to start a session. If you are using a customized implementation, check that your client is correctly allocating sessions.</string>
+    </stringEntry>
+    <stringEntry id="MSG.ERROR.BC_OUTOFMEMORY">
+        <string xml:lang="en">The Markup AI CLI was unable to process the request due to memory constraints. For large files or batch operations, consider processing files individually or increasing system resources.
+
+For more details on optimizing performance, see the Markup AI CLI documentation.</string>
+    </stringEntry>
+    <stringEntry id="MSG.ERROR.CORRECTIONS_NOT_APPLIED">
+        <string xml:lang="en">Your corrections could not be applied.</string>
+    </stringEntry>
+    <stringEntry id="MSG.ERROR.ERROR_LOADING_CHECK_APPLY_SESSION">
+        <string xml:lang="en">Error loading Check and Apply session.</string>
+    </stringEntry>
+    <stringEntry id="MSG.ERROR.UNABLE_TO_AGGREGATE_REPORTS">
+        <string xml:lang="en">Unable to aggregate reports</string>
+    </stringEntry>
+    <stringEntry id="MSG.ERROR.UNABLE_TO_CONNECT_TO_UNKNOWN_HOST">
+        <string xml:lang="en">Cannot connect to the Markup AI platform. Please check your API key and network connection.</string>
+    </stringEntry>
+    <stringEntry id="MSG.ERROR.UNABLE_TO_CREATE_OR_MANAGE_THE_TEMP_DIRECTORY_FOR_THE_EXTERNAL_CONNECTOR">
+        <string xml:lang="en">The temporary directory for the external connector could not be modified. Ensure that the directory is not write-protected and that you have write access to the directory. If the issue persists, contact your system administrator.</string>
+    </stringEntry>
+    <stringEntry id="MSG.EXTRACTING_TEXT_FROM_FILE_X">
+        <string xml:lang="en">Extracting text from file %s</string>
+    </stringEntry>
+    <stringEntry id="MSG.FILE_CHANGED_SINCE_LAST_CHECK_PLEASE_RECHECK">
+        <string xml:lang="en">File was modified since last check. Please re-check.</string>
+    </stringEntry>
+    <stringEntry id="MSG.FINDING_FILES_N_FOUND">
+        <string xml:lang="en">Finding files (%d found)</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.CHECK_APPLY_NOT_AVAILABLE_FOR_THIS_FILE_TYPE">
+        <string xml:lang="en">Check and Apply is not available for the selected file type.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.CHECK_APPLY_NO_FLAGS_FOUND">
+        <string xml:lang="en">The checked documents do not contain any issues that require correction. For more information on using the Markup AI CLI, see the documentation at https://docs.markup.ai.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.CHECK_COMPLETED_AND_NEXT_STEPS">
+        <string xml:lang="en">Check completed. View the results in the terminal output or use the --json flag to export results for further analysis.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.ERROR_IN_CHECK_AND_APPLY">
+        <string xml:lang="en">An error occured while opening Check and Apply.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.FILE_LANGUAGE_X_NOT_MATCHING_CHECKING_LANGUGAGE_Y">
+        <string xml:lang="en">Your search returned documents that appear to be in the language &quot;%s&quot;. However, your checking language is &quot;%s&quot;. Update your checking language to match the language of your documents.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.FILE_MAYBE_HAS_WRONG_ENCODING_X_BUT_SUPPOSE_HAVE_Y">
+        <string xml:lang="en">The encoding {1} is configured, but this file has the encoding {0}. For reliable results, check this file separately with the encoding {0}.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.FINDING_WEBSITES_N_FOUND">
+        <string xml:lang="en">Finding web pages (%d found).</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.MANUAL_CORRECTION_MISSING">
+        <string xml:lang="en">Please enter a manual correction for the highlighted rows or deselect the check box for entries that should be ignored.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.NEW_CONNECTOR_PACKAGE_DOWNLOADED_ACTIVATED_ON_NEXT_START">
+        <string xml:lang="en">A new version of the Markup AI CLI is available. Update to the latest version to access new features and improvements.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.NO_FILES_HAVE_BEEN_CHECKED_YET">
+        <string xml:lang="en">Check and Apply is not available because you have not checked any files.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.NO_FILES_MATCHING_SELECTED_FILE_TYPE">
+        <string xml:lang="en">Your search did not return any files that match the selected file type. Select a different file type or a different search location.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.NO_TEXT_EXTRACTED_FROM_DOCUMENT">
+        <string xml:lang="en">A report could not be generated because no text was extracted from the document. Please check if the TMX language selection is correct and that the TMX file contains valid content.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.PLEASE_SELECT_A_LANGUAGE_FOR_THE_TMX_EXTRACTION">
+        <string xml:lang="en">There is no TMX language defined. Select a TMX file in the file list first, then select a language from the TMX language selection dropdown.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.REACHED_END">
+        <string xml:lang="en">The Markup AI CLI has finished processing the document.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.REACHED_START">
+        <string xml:lang="en">The Markup AI CLI has started processing the document.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.SOME_FILE_ENCODINGS_MAY_WRONG_PLEASE_CHECKED_MARKED_FILES">
+        <string xml:lang="en">Some files do not match the encoding selected in the processing configuration. Select the marked files for more details.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.THE_GIVEN_LOCATION_X_COULD_NOT_BE_ACCESSED">
+        <string xml:lang="en">The path &quot;%s&quot; cannot be accessed. Ensure that the path exists and that you have the privileges required to access the path.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INFO.URL_IS_NOT_MATCHING_FILTER">
+        <string xml:lang="en">The new URL does not match the filter settings. Please clear the filter or include the new starting address.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INPUT.ACROCHECK_USER_ID">
+        <string xml:lang="en">Please enter your Markup AI API key:</string>
+    </stringEntry>
+    <stringEntry id="MSG.INPUT.ENTER_USER_PASSWORD">
+        <string xml:lang="en">Please enter your password.</string>
+    </stringEntry>
+    <stringEntry id="MSG.INPUT.NEW_USER_PASSWORD">
+        <string xml:lang="en">Your password has changed. Please enter your new password.</string>
+    </stringEntry>
+    <stringEntry id="MSG.N1_GRAMMAR_FLAGS">
+        <string xml:lang="en">1 grammar flag</string>
+    </stringEntry>
+    <stringEntry id="MSG.N1_NEW_TERM_FLAGS">
+        <string xml:lang="en">1 new term</string>
+    </stringEntry>
+    <stringEntry id="MSG.N1_REUSE_FLAGS">
+        <string xml:lang="en">1 reuse flag</string>
+    </stringEntry>
+    <stringEntry id="MSG.N1_SPELLING_FLAGS">
+        <string xml:lang="en">1 spelling flag</string>
+    </stringEntry>
+    <stringEntry id="MSG.N1_STYLE_FLAGS">
+        <string xml:lang="en">1 style flag</string>
+    </stringEntry>
+    <stringEntry id="MSG.N1_TERM_FLAGS">
+        <string xml:lang="en">1 term flag</string>
+    </stringEntry>
+    <stringEntry id="MSG.NOT_APPLICABLE_FOR_SELECTED_RULE_SET">
+        <string xml:lang="en">&lt;not applicable for selected rule set&gt;</string>
+    </stringEntry>
+    <stringEntry id="MSG.NO_FILES_FOUND">
+        <string xml:lang="en">No files found.</string>
+    </stringEntry>
+    <stringEntry id="MSG.NO_REPORT">
+        <string xml:lang="en">An error occurred during the check. No report was written.</string>
+    </stringEntry>
+    <stringEntry id="MSG.NO_REPORT_GENERATED">
+        <string xml:lang="en">A report was not generated.</string>
+    </stringEntry>
+    <stringEntry id="MSG.N_GRAMMAR_FLAGS">
+        <string xml:lang="en">%d grammar flags</string>
+    </stringEntry>
+    <stringEntry id="MSG.N_NEW_TERM_FLAGS">
+        <string xml:lang="en">%d new terms</string>
+    </stringEntry>
+    <stringEntry id="MSG.N_REUSE_FLAGS">
+        <string xml:lang="en">%d reuse flags</string>
+    </stringEntry>
+    <stringEntry id="MSG.N_SPELLING_FLAGS">
+        <string xml:lang="en">%d spelling flags</string>
+    </stringEntry>
+    <stringEntry id="MSG.N_STYLE_FLAGS">
+        <string xml:lang="en">%d style flags</string>
+    </stringEntry>
+    <stringEntry id="MSG.N_TERM_FLAGS">
+        <string xml:lang="en">%d terminology flags</string>
+    </stringEntry>
+    <stringEntry id="MSG.N_WORDS_N_SENTENCES_CHECKED_IN_N_SECONDS">
+        <string xml:lang="en">%d words (%d sentences) checked in %ds</string>
+    </stringEntry>
+    <stringEntry id="MSG.PLEASE_PRESS_START_TO_BEGIN_WITH_CONCURRENT_CRAWL_AND_CHECK">
+        <string xml:lang="en">Click &quot;Start Scan and Check&quot; to begin.</string>
+    </stringEntry>
+    <stringEntry id="MSG.PROCESSED_N_OF_N_BYTES">
+        <string xml:lang="en">Processed %d of %d bytes</string>
+    </stringEntry>
+    <stringEntry id="MSG.PROMPT.ARE_YOU_SURE_TO_CANCEL_THE_TASK">
+        <string xml:lang="en">Are you sure you want to cancel?</string>
+    </stringEntry>
+    <stringEntry id="MSG.QUESTION.ARE_YOU_SURE_YOU_WANT_TO_PROCEED">
+        <string xml:lang="en">Are you sure you want to proceed?</string>
+    </stringEntry>
+    <stringEntry id="MSG.RESULT_NOT_AVAILABLE">
+        <string xml:lang="en">Result not available</string>
+    </stringEntry>
+    <stringEntry id="MSG.SETTINGS_NOT_SUPPORTED_BY_SERVER">
+        <string xml:lang="en">The Markup AI platform does not support one or more of your previous settings. All unsupported settings have been replaced with platform defaults. Please review your settings for any changes.</string>
+    </stringEntry>
+    <stringEntry id="MSG.TITLE.BATCHCHECKER_1_MESSAGE">
+        <string xml:lang="en">1 System Notification</string>
+    </stringEntry>
+    <stringEntry id="MSG.TITLE.BATCHCHECKER_X_MESSAGES">
+        <string xml:lang="en">{0} System Notifications</string>
+    </stringEntry>
+    <stringEntry id="MSG.TITLE.CHECK_AND_APPLY">
+        <string xml:lang="en">Check and Apply</string>
+    </stringEntry>
+    <stringEntry id="MSG.TITLE.CONFIRMATION">
+        <string xml:lang="en">Confirmation</string>
+    </stringEntry>
+    <stringEntry id="MSG.TITLE.CONNECTOR_ACTION_FAILED">
+        <string xml:lang="en">Connector Action Failed</string>
+    </stringEntry>
+    <stringEntry id="MSG.TITLE.CONTEXT">
+        <string xml:lang="en">Contexts</string>
+    </stringEntry>
+    <stringEntry id="MSG.TITLE.ERROR">
+        <string xml:lang="en">Error</string>
+    </stringEntry>
+    <stringEntry id="MSG.TITLE.INFORMATION">
+        <string xml:lang="en">Information</string>
+    </stringEntry>
+    <stringEntry id="MSG.TITLE.WARNING">
+        <string xml:lang="en">Warning</string>
+    </stringEntry>
+    <stringEntry id="MSG.TMX_FILE_CONTAINS_THE_FOLLOWING_LANGUAGES">
+        <string xml:lang="en">The selected TMX file contains segments in the following languages:</string>
+    </stringEntry>
+    <stringEntry id="MSG.TMX_FILE_HEADER">
+        <string xml:lang="en">TMX file header:</string>
+    </stringEntry>
+    <stringEntry id="MSG.TMX_SEGMENTS_PREVIEW">
+        <string xml:lang="en">TMX segment preview:</string>
+    </stringEntry>
+    <stringEntry id="MSG.WAIT_FOR_CLIENT_REGISTRATION">
+        <string xml:lang="en">The Markup AI CLI is authenticating with the platform. Please wait a moment.</string>
+    </stringEntry>
+    <stringEntry id="MSG.WARNING.FILE_X_ALREADY_EXISTS">
+        <string xml:lang="en">File %s exists. Do you want to replace it?</string>
+    </stringEntry>
+    <stringEntry id="MSG_ERROR.ERROR_ANALYZING_SEGMENTATION">
+        <string xml:lang="en">Error analyzing segmentation</string>
+    </stringEntry>
+    <stringEntry id="MSG_ERROR.ERROR_OCCURED_DURING_PARSING_INTERNAL_ERROR_X">
+        <string xml:lang="en">An error occurred during parsing of the file.%nThe internal error message is:%n%n%s%n</string>
+    </stringEntry>
+    <stringEntry id="MSG_ERROR.ERROR_SHOWING_FLAGS">
+        <string xml:lang="en">Error showing flags in document</string>
+    </stringEntry>
+    <stringEntry id="MSG_ERROR.FILE_TYPE_ILLEGAL_EMPTY_APPLICABLE_SUFFIXES">
+        <string xml:lang="en">The applicable suffixes for a file type cannot be empty.</string>
+    </stringEntry>
+    <stringEntry id="MSG_ERROR.FILE_TYPE_ILLEGAL_EMTPY_NAME">
+        <string xml:lang="en">A file type cannot have an empty name.</string>
+    </stringEntry>
+    <stringEntry id="MSG_ERROR.ILLEGAL_FILE_TYPE_CONFIGURATION">
+        <string xml:lang="en">Current file type configuration is not valid.</string>
+    </stringEntry>
+    <stringEntry id="MSG_ERROR.UNABLE_TO_CONNECT_TO_SERVER">
+        <string xml:lang="en">Unable to connect to Markup AI platform</string>
+    </stringEntry>
+    <stringEntry id="MSG_ERROR.UNABLE_TO_LOAD_SETTINGS">
+        <string xml:lang="en">Unable to load settings.</string>
+    </stringEntry>
+    <stringEntry id="MSG_ERROR.UNABLE_TO_SAVE_CONFIGURATION">
+        <string xml:lang="en">Unable to save configuration</string>
+    </stringEntry>
+    <stringEntry id="MSG_ERROR.UNABLE_TO_SAVE_SETTINGS">
+        <string xml:lang="en">Unable to save settings</string>
+    </stringEntry>
+    <stringEntry id="MSG_ERROR.UNABLE_TO_START_CLIENT">
+        <string xml:lang="en">The Markup AI CLI encountered an error during initialization.</string>
+    </stringEntry>
+    <stringEntry id="MSG_ERROR.UNHANDLED_EXCEPTION">
+        <string xml:lang="en">Unhandled exception.</string>
+    </stringEntry>
+    <stringEntry id="NO">
+        <string xml:lang="en">No</string>
+    </stringEntry>
+    <stringEntry id="STATUS.EXTRACTED_N_CHARACTERS">
+        <string xml:lang="en">Extracted %d characters.</string>
+    </stringEntry>
+    <stringEntry id="STATUS.N_FILES_FOUND">
+        <string xml:lang="en">%d files found.</string>
+    </stringEntry>
+    <stringEntry id="STR.CANCELLED">
+        <string xml:lang="en">Canceled</string>
+    </stringEntry>
+    <stringEntry id="STR.ERROR">
+        <string xml:lang="en">Error</string>
+    </stringEntry>
+    <stringEntry id="STR.OK">
+        <string xml:lang="en">OK</string>
+    </stringEntry>
+    <stringEntry id="TABLE.HEAD.APPLY">
+        <string xml:lang="en">Apply</string>
+    </stringEntry>
+    <stringEntry id="TABLE.HEAD.CONTEXT">
+        <string xml:lang="en">Contexts</string>
+    </stringEntry>
+    <stringEntry id="TABLE.HEAD.FLAG">
+        <string xml:lang="en">Issue Text</string>
+    </stringEntry>
+    <stringEntry id="TABLE.HEAD.NUMBER">
+        <string xml:lang="en">Frequency</string>
+    </stringEntry>
+    <stringEntry id="TABLE.HEAD.REPLACEMENT">
+        <string xml:lang="en">Manual Correction</string>
+    </stringEntry>
+    <stringEntry id="TABLE.HEAD.SUGGESTION">
+        <string xml:lang="en">Suggestions</string>
+    </stringEntry>
+    <stringEntry id="TABLE.HEADING.CHECKING_SCORE">
+        <string xml:lang="en">Score</string>
+    </stringEntry>
+    <stringEntry id="TABLE.HEADING.CHECKING_STATUS">
+        <string xml:lang="en">Status</string>
+    </stringEntry>
+    <stringEntry id="TABLE.HEADING.CHECK_AND_APPLY_FILENAME">
+        <string xml:lang="en">File Name</string>
+    </stringEntry>
+    <stringEntry id="TABLE.HEADING.CHECK_AND_APPLY_STATE">
+        <string xml:lang="en">Status</string>
+    </stringEntry>
+    <stringEntry id="TABLE.HEADING.ERROR_TYPE">
+        <string xml:lang="en">Issue Type</string>
+    </stringEntry>
+    <stringEntry id="TITLE.ABOUT_ACROCHECK_BATCH_CLIENT">
+        <string xml:lang="en">About Markup AI CLI</string>
+    </stringEntry>
+    <stringEntry id="TITLE.CHECKED_DOCUMENT">
+        <string xml:lang="en">Checked Document</string>
+    </stringEntry>
+    <stringEntry id="TITLE.CHECKING">
+        <string xml:lang="en">Checking</string>
+    </stringEntry>
+    <stringEntry id="TITLE.CHECK_AND_APPLY_RESULTS">
+        <string xml:lang="en">Check and Apply Results</string>
+    </stringEntry>
+    <stringEntry id="TITLE.CHECK_APPLY.CONTEXTS_X">
+        <string xml:lang="en">{0} Contexts</string>
+    </stringEntry>
+    <stringEntry id="TITLE.CHECK_SETTINGS">
+        <string xml:lang="en">Check Options</string>
+    </stringEntry>
+    <stringEntry id="TITLE.CHOOSE_TYPE_OF_CHECK">
+        <string xml:lang="en">Choose Type of Check</string>
+    </stringEntry>
+    <stringEntry id="TITLE.CONCURRENT_CRAWL_CHECK_DIALOG">
+        <string xml:lang="en">Scan and Check</string>
+    </stringEntry>
+    <stringEntry id="TITLE.CONTEXT.DOCUMENT">
+        <string xml:lang="en">Document</string>
+    </stringEntry>
+    <stringEntry id="TITLE.ENTER_CREDENTIALS_DIALOG">
+        <string xml:lang="en">Website Login Details</string>
+    </stringEntry>
+    <stringEntry id="TITLE.ERROR">
+        <string xml:lang="en">Error</string>
+    </stringEntry>
+    <stringEntry id="TITLE.ERROR_OCCURRED">
+        <string xml:lang="en">Error Occurred</string>
+    </stringEntry>
+    <stringEntry id="TITLE.FEEDBACK_DIALOG.CORRECTION_OF_FLAG">
+        <string xml:lang="en">Submit Correction for Flag</string>
+    </stringEntry>
+    <stringEntry id="TITLE.FEEDBACK_DIALOG.SUBMITTING_A_COMMENT_ON_A_FLAG">
+        <string xml:lang="en">Submit Comment on Flag</string>
+    </stringEntry>
+    <stringEntry id="TITLE.FILE_LANGUAGE_NOT_MATCHING_CHECKING_LANGUGAGE">
+        <string xml:lang="en">External Connector</string>
+    </stringEntry>
+    <stringEntry id="TITLE.INFORMATION">
+        <string xml:lang="en">Information</string>
+    </stringEntry>
+    <stringEntry id="TITLE.LOAD_SETTINGS">
+        <string xml:lang="en">Load Settings</string>
+    </stringEntry>
+    <stringEntry id="TITLE.MANAGE_FILE_TYPES">
+        <string xml:lang="en">Manage File Types</string>
+    </stringEntry>
+    <stringEntry id="TITLE.METATAG_FILTER">
+        <string xml:lang="en">Filter Settings</string>
+    </stringEntry>
+    <stringEntry id="TITLE.MULTIPLE_URLS_INPUT_DIALOG">
+        <string xml:lang="en">URL List</string>
+    </stringEntry>
+    <stringEntry id="TITLE.NEW_CONNECTOR_PACKAGE_DOWNLOADED">
+        <string xml:lang="en">New Connector Package Downloaded</string>
+    </stringEntry>
+    <stringEntry id="TITLE.NO_FILES_MATCHING_FILE_TYPE">
+        <string xml:lang="en">Find Files</string>
+    </stringEntry>
+    <stringEntry id="TITLE.PROGRESS">
+        <string xml:lang="en">Progress</string>
+    </stringEntry>
+    <stringEntry id="TITLE.SAVE_SETTINGS_AS">
+        <string xml:lang="en">Save Settings As</string>
+    </stringEntry>
+    <stringEntry id="TITLE.SEGMENTATION_ANALYSIS_X">
+        <string xml:lang="en">Segmentation Analysis - %s</string>
+    </stringEntry>
+    <stringEntry id="TITLE.SELECT_DOCUMENTS">
+        <string xml:lang="en">Document type</string>
+    </stringEntry>
+    <stringEntry id="TITLE.SELECT_FILES">
+        <string xml:lang="en">Select Files</string>
+    </stringEntry>
+    <stringEntry id="TITLE.SOURCE_SELECTION_SETTINGS">
+        <string xml:lang="en">Document Options</string>
+    </stringEntry>
+    <stringEntry id="TITLE.SUMMARY">
+        <string xml:lang="en">Summary</string>
+    </stringEntry>
+    <stringEntry id="TITLE.WARNING">
+        <string xml:lang="en">Warning</string>
+    </stringEntry>
+    <stringEntry id="TOOLTIP.BATCHCHECK_SELECT_FOLDER">
+        <string xml:lang="en">Select folder for batch check.</string>
+    </stringEntry>
+    <stringEntry id="TOOLTIP.CREDENTIAL_DIALOG_SKIP_ALL">
+        <string xml:lang="en">For this session, skip all web pages that require a login.</string>
+    </stringEntry>
+    <stringEntry id="TOOLTIP.CREDENTIAL_DIALOG_SKIP_PAGE">
+        <string xml:lang="en">Skip this page and continue scanning for web pages.</string>
+    </stringEntry>
+    <stringEntry id="TOOLTIP.DESELECT_ALL_FLAGS_ON_CURRENT_PAGE._HOLD_SHIFT_KEY_DURING_CLICK_TO_DESELECT_FLAGS_ON_ALL_PAGES">
+        <string xml:lang="en">Deselects all flags on the current page. Press Shift while clicking to deselect all flags on all pages.</string>
+    </stringEntry>
+    <stringEntry id="TOOLTIP.SELECT_ALL_FLAGS_ON_CURRENT_PAGE._HOLD_SHIFT_KEY_DURING_CLICK_TO_SELECT_FLAGS_ON_ALL_PAGES">
+        <string xml:lang="en">Selects all flags on the current page. Press Shift while clicking to select all flags on all pages.</string>
+    </stringEntry>
+    <stringEntry id="URL.STANDARDS_AND_GUIDELINES">
+        <string xml:lang="en">https://docs.markup.ai/concepts</string>
+    </stringEntry>
+</acroStrings>
+</foreign>
+</body>
+</topic>

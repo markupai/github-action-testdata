@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+<!ENTITY nbsp "&#160;">
+]>
+
+<topic id="dita_enterprise_syntax_examples"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>DITA 1.3 Enterprise Syntax - Production Ready Pattern</title>
+<shortdesc>This comprehensive reference demonstrates the most commonly used DITA 1.3 Topic elements 
+    and syntax patterns found in enterprise production environments, including cross-references, 
+    content reuse, tables, multimedia, and advanced formatting.</shortdesc>
+
+<prolog>
+    <author>Enterprise Documentation Team</author>
+    <critdates>
+        <created date="2025-09-24"/>
+        <revised modified="2025-09-24"/>
+    </critdates>
+    <metadata>
+        <keywords>
+            <keyword>DITA 1.3</keyword>
+            <keyword>enterprise syntax</keyword>
+            <keyword>production examples</keyword>
+            <keyword>topic elements</keyword>
+        </keywords>
+        <prodinfo>
+            <prodname>DITA Enterprise Guide</prodname>
+            <vrmlist>
+                <vrm version="1.3" release="0" modification="0"/>
+            </vrmlist>
+        </prodinfo>
+    </metadata>
+</prolog>
+
+<body>
+    <!-- Basic Text Elements -->
+    <section id="basic_text_elements">
+        <title>Basic Text Elements</title>
+        <p>This paragraph demonstrates basic text formatting with <b>bold text</b>, 
+            <i>italic text</i>, <u>underlined text</u>, and <tt>monospace text</tt>. 
+            You can also use <sup>superscript</sup> and <sub>subscript</sub> formatting.</p>
+        
+        <p>Special characters and entities: &lt; &gt; &amp; &quot; &apos; 
+            Non-breaking space:&nbsp;here. Em dash—like this. En dash–like this.</p>
+        
+        <note type="important">This is an important note that stands out from regular content.</note>
+        <note type="warning">This is a warning note for critical information.</note>
+        <note type="tip">This is a tip note for helpful suggestions.</note>
+        <note type="caution">This is a caution note for potential issues.</note>
+    </section>
+
+    <!-- Lists and Structured Content -->
+    <section id="lists_structured_content">
+        <title>Lists and Structured Content</title>
+        
+        <p>Unordered list example:</p>
+        <ul>
+            <li>First item with nested content
+                <ul>
+                    <li>Nested item one</li>
+                    <li>Nested item two</li>
+                </ul>
+            </li>
+            <li>Second item with <codeph>inline code</codeph></li>
+            <li>Third item with <xref href="#dita_enterprise_syntax_examples/cross_references" 
+                format="dita">internal reference</xref></li>
+        </ul>
+        
+        <p>Ordered list example:</p>
+        <ol>
+            <li>First step in a procedure</li>
+            <li>Second step with additional details
+                <p>Additional paragraph within the list item.</p>
+            </li>
+            <li>Third step with code example:
+                <codeblock outputclass="language-xml">&lt;example&gt;XML content&lt;/example&gt;</codeblock>
+            </li>
+        </ol>
+        
+        <p>Definition list example:</p>
+        <dl>
+            <dlentry>
+                <dt>API</dt>
+                <dd>Application Programming Interface - a set of protocols and tools for building software applications.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>REST</dt>
+                <dd>Representational State Transfer - an architectural style for distributed hypermedia systems.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>JSON</dt>
+                <dd>JavaScript Object Notation - a lightweight data interchange format.</dd>
+            </dlentry>
+        </dl>
+    </section>
+
+    <!-- Cross References and Links -->
+    <section id="cross_references">
+        <title>Cross References and Links</title>
+        
+        <p>Internal cross-reference to another section: 
+            <xref href="#dita_enterprise_syntax_examples/tables_data" format="dita">Tables and Data section</xref></p>
+        
+        <p>External web link: 
+            <xref href="https://docs.oasis-open.org/dita/dita/v1.3/" scope="external" format="html">
+                OASIS DITA 1.3 Specification</xref></p>
+        
+        <p>Link to another DITA file: 
+            <xref href="MyDemoInc.dita" format="dita">MyDemo Inc. Topic</xref></p>
+        
+        <p>Cross-reference with custom link text: 
+            <xref href="#dita_enterprise_syntax_examples/multimedia_content" format="dita">
+                See multimedia examples</xref></p>
+        
+        <p>Related links appear at the end of the topic (see bottom of this file).</p>
+    </section>
+
+    <!-- Code Examples -->
+    <section id="code_examples">
+        <title>Code Examples and Technical Content</title>
+        
+        <p>Inline code: Use the <codeph>querySelector()</codeph> method to select DOM elements. 
+            File paths like <filepath>/usr/local/bin/app</filepath> and 
+            UI elements like <uicontrol>Save</uicontrol> button.</p>
+        
+        <p>Code block examples:</p>
+        
+        <codeblock outputclass="language-javascript">
+// JavaScript example
+function calculateTotal(items) {
+    return items.reduce((sum, item) => {
+        return sum + (item.price * item.quantity);
+    }, 0);
+}
+
+const total = calculateTotal(shoppingCart);
+console.log(`Total: $${total.toFixed(2)}`);
+        </codeblock>
+        
+        <codeblock outputclass="language-xml">
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;configuration&gt;
+    &lt;database&gt;
+        &lt;url&gt;jdbc:postgresql://localhost:5432/mydb&lt;/url&gt;
+        &lt;username&gt;admin&lt;/username&gt;
+        &lt;password&gt;${DB_PASSWORD}&lt;/password&gt;
+    &lt;/database&gt;
+&lt;/configuration&gt;
+        </codeblock>
+        
+        <p>Command line examples:</p>
+        <codeblock outputclass="language-bash">
+# Install dependencies
+npm install --production
+
+# Start the application
+npm start
+
+# Run tests
+npm test -- --coverage
+        </codeblock>
+    </section>
+
+    <!-- Tables and Data -->
+    <section id="tables_data">
+        <title>Tables and Data</title>
+        
+        <p>Simple table for basic data:</p>
+        <simpletable>
+            <sthead>
+                <stentry>Product</stentry>
+                <stentry>Version</stentry>
+                <stentry>Status</stentry>
+                <stentry>Release Date</stentry>
+            </sthead>
+            <strow>
+                <stentry>Enterprise Suite</stentry>
+                <stentry>2.1.0</stentry>
+                <stentry>Active</stentry>
+                <stentry>2025-09-15</stentry>
+            </strow>
+            <strow>
+                <stentry>Developer Tools</stentry>
+                <stentry>1.8.3</stentry>
+                <stentry>Maintenance</stentry>
+                <stentry>2025-08-22</stentry>
+            </strow>
+            <strow>
+                <stentry>Analytics Platform</stentry>
+                <stentry>3.0.0-beta</stentry>
+                <stentry>Beta</stentry>
+                <stentry>2025-10-01</stentry>
+            </strow>
+        </simpletable>
+        
+        <p>Complex table with advanced formatting:</p>
+        <table>
+            <title>API Endpoint Configuration</title>
+            <tgroup cols="4">
+                <colspec colname="endpoint" colwidth="2*"/>
+                <colspec colname="method" colwidth="1*"/>
+                <colspec colname="auth" colwidth="1.5*"/>
+                <colspec colname="description" colwidth="3*"/>
+                <thead>
+                    <row>
+                        <entry>Endpoint</entry>
+                        <entry>Method</entry>
+                        <entry>Authentication</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><codeph>/api/v1/users</codeph></entry>
+                        <entry>GET</entry>
+                        <entry>Bearer Token</entry>
+                        <entry>Retrieve list of all users with pagination support</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>/api/v1/users/{id}</codeph></entry>
+                        <entry>PUT</entry>
+                        <entry>Bearer Token + Admin</entry>
+                        <entry>Update user information. Requires admin privileges.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>/api/v1/auth/login</codeph></entry>
+                        <entry>POST</entry>
+                        <entry>None</entry>
+                        <entry>Authenticate user and return JWT token</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </section>
+
+    <!-- Multimedia Content -->
+    <section id="multimedia_content">
+        <title>Multimedia and Graphics</title>
+        
+        <p>Images and figures are essential for enterprise documentation:</p>
+        
+        <fig>
+            <title>System Architecture Diagram</title>
+            <p><b>[System Architecture Diagram Placeholder]</b></p>
+            <p><i>This would show the relationship between frontend, API gateway, microservices, and database layers</i></p>
+        </fig>
+        
+        <p>Inline image reference: <b>[Warning Icon]</b> indicates important information.</p>
+        
+        <p>Object embedding for interactive content:</p>
+        <p><b>[Interactive Workflow Diagram Placeholder]</b></p>
+        <p><i>This would show an interactive workflow diagram for the approval process</i></p>
+    </section>
+
+    <!-- Content Reuse Patterns -->
+    <section id="content_reuse">
+        <title>Content Reuse Patterns</title>
+        
+        <p>Content reference (conref) example - reusing content from another file:</p>
+        <!-- This would reference reusable content from a separate file -->
+        <p><b>[Content Reference Example]</b> - This paragraph would be pulled from reusable_content.dita#reusable/company_boilerplate</p>
+        
+        <p>Conditional content using filtering attributes:</p>
+        <p audience="admin">This content is only visible to administrators.</p>
+        <p audience="developer">This content is only visible to developers.</p>
+        <p platform="windows linux">This content applies to Windows and Linux platforms.</p>
+        
+        <p>Product-specific content:</p>
+        <p product="enterprise">Enterprise edition includes advanced security features.</p>
+        <p product="standard">Standard edition provides core functionality.</p>
+    </section>
+
+    <!-- Advanced Elements -->
+    <section id="advanced_elements">
+        <title>Advanced Elements</title>
+        
+        <p>Mathematical expressions and formulas:</p>
+        <p>The formula for calculating compound interest is: 
+            <equation-inline>A = P(1 + r/n)^(nt)</equation-inline></p>
+        
+        <p>Hazard statements for safety documentation:</p>
+        <hazardstatement type="danger">
+            <messagepanel>
+                <typeofhazard>High Voltage</typeofhazard>
+                <consequence>Risk of electric shock or death</consequence>
+                <howtoavoid>Turn off power before servicing equipment</howtoavoid>
+            </messagepanel>
+        </hazardstatement>
+        
+        <p>Step-by-step procedures with substeps:</p>
+        <ol>
+            <li><b>Open the configuration file</b>
+                <p>Located at <filepath>/etc/myapp/config.yml</filepath></p>
+            </li>
+            <li><b>Modify the database settings</b>
+                <ol>
+                    <li>Update the hostname</li>
+                    <li>Change the port number</li>
+                    <li>Set the database name</li>
+                </ol>
+            </li>
+            <li><b>Save and restart the service</b>
+                <p><i>Result:</i> The application will connect to the new database.</p>
+            </li>
+        </ol>
+        
+        <p>Choice tables for decision-making:</p>
+        <simpletable>
+            <sthead>
+                <stentry>Deployment Option</stentry>
+                <stentry>Description</stentry>
+            </sthead>
+            <strow>
+                <stentry>Cloud Deployment</stentry>
+                <stentry>Scalable, managed infrastructure with automatic updates</stentry>
+            </strow>
+            <strow>
+                <stentry>On-Premises</stentry>
+                <stentry>Full control over hardware and security, requires maintenance</stentry>
+            </strow>
+            <strow>
+                <stentry>Hybrid</stentry>
+                <stentry>Combination of cloud and on-premises for flexibility</stentry>
+            </strow>
+        </simpletable>
+    </section>
+
+    <!-- Troubleshooting Section -->
+    <section id="troubleshooting">
+        <title>Troubleshooting and Error Handling</title>
+        
+        <p>Common error scenarios and solutions:</p>
+        
+        <table>
+            <title>Common Error Codes</title>
+            <tgroup cols="3">
+                <colspec colname="code" colwidth="1*"/>
+                <colspec colname="message" colwidth="2*"/>
+                <colspec colname="solution" colwidth="3*"/>
+                <thead>
+                    <row>
+                        <entry>Error Code</entry>
+                        <entry>Error Message</entry>
+                        <entry>Solution</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><msgnum>ERR-001</msgnum></entry>
+                        <entry><msgph>Database connection failed</msgph></entry>
+                        <entry>Check database server status and connection parameters in 
+                            <filepath>config/database.yml</filepath></entry>
+                    </row>
+                    <row>
+                        <entry><msgnum>ERR-002</msgnum></entry>
+                        <entry><msgph>Authentication token expired</msgph></entry>
+                        <entry>Generate a new token using the <cmdname>refresh-token</cmdname> command</entry>
+                    </row>
+                    <row>
+                        <entry><msgnum>ERR-003</msgnum></entry>
+                        <entry><msgph>Insufficient permissions</msgph></entry>
+                        <entry>Contact system administrator to update user role permissions</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </section>
+
+    <!-- Metadata and Indexing -->
+    <section id="metadata_indexing">
+        <title>Metadata and Indexing</title>
+        
+        <p>Index terms help with searchability: 
+            <indexterm>API<indexterm>REST API</indexterm></indexterm>
+            <indexterm>authentication<indexterm>JWT tokens</indexterm></indexterm>
+            <indexterm>database<indexterm>PostgreSQL</indexterm></indexterm>
+        </p>
+        
+        <p>Term definitions for glossary integration:</p>
+        <p>A <term>microservice</term> is a small, independent service that communicates 
+            over well-defined APIs.</p>
+        
+        <p>Keyword markup for enhanced search:</p>
+        <p>This system supports <keyword>OAuth 2.0</keyword>, <keyword>SAML</keyword>, 
+            and <keyword>LDAP</keyword> authentication methods.</p>
+    </section>
+</body>
+
+<!-- Related Links Section -->
+<related-links>
+    <linkpool>
+        <link href="https://docs.oasis-open.org/dita/dita/v1.3/" scope="external" format="html">
+            <linktext>OASIS DITA 1.3 Specification</linktext>
+            <desc>Official DITA 1.3 language specification</desc>
+        </link>
+        <link href="MyDemoInc.dita" format="dita">
+            <linktext>MyDemo Inc. Example</linktext>
+            <desc>Basic DITA topic example</desc>
+        </link>
+    </linkpool>
+    <linklist>
+        <title>Additional Resources</title>
+        <link href="https://www.dita-ot.org/" scope="external" format="html">
+            <linktext>DITA Open Toolkit</linktext>
+            <desc>Open source publishing engine for DITA content</desc>
+        </link>
+        <link href="https://www.oxygenxml.com/dita/" scope="external" format="html">
+            <linktext>Oxygen XML DITA Resources</linktext>
+            <desc>Tools and resources for DITA authoring</desc>
+        </link>
+    </linklist>
+</related-links>
+
+</topic>
