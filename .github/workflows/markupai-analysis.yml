@@ -29,7 +29,7 @@ jobs:
       - name: Run Markup AI Analysis
         # v2 pre-release pinned to PR #335 in markupai/content-guardian-action.
         # See https://github.com/markupai/content-guardian-action/pull/335
-        uses: markupai/content-guardian-action@113d61337a585b2e4eb590dffeb46710d7bafb15
+        uses: markupai/content-guardian-action@f44c6989a5761df8723c16751759afa3913cf677
         # No `target` input — the action falls back to the org's default
         # target (the one flagged `is_default: true`).
         env:
