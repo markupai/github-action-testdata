@@ -25,7 +25,7 @@ jobs:
         # markupai/content-guardian-action (adds review-comment reconciliation:
         # stale comments are now auto-deleted on re-runs).
         # See https://github.com/markupai/content-guardian-action/pull/335
-        uses: markupai/content-guardian-action@7d7893dd9fe5fe0e9c261bde61c73b972da6be1a
+        uses: markupai/content-guardian-action@4289732252ef9146bdf34896f9cb484b1c5bc999
         with:
           target: Main
         env:
