@@ -4,13 +4,19 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: "0 8 * * *"
   workflow_dispatch:
 
 permissions:
   contents: read
   pull-requests: write
   statuses: write
+
+# Serialize CI runs per PR so two quick pushes don't race on the action's
+# review-comment reconciliation.
+concurrency:
+  group: markup-ai-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   content-quality-analysis:
@@ -21,12 +27,11 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Run Markup AI Analysis
-        uses: markupai/content-guardian-action@v1
-        with:
-          # valid tones: academic, confident, conversational, empathetic, engaging, friendly, professional, style_guide, technical
-          tone: professional
-          dialect: american_english
-          style-guide: microsoft
+        # v2 pre-release pinned to PR #335 in markupai/content-guardian-action.
+        # See https://github.com/markupai/content-guardian-action/pull/335
+        uses: markupai/content-guardian-action@c766459b346d47b7fa70d641ec2d728e67e42e26
+        # No `target` input — the action falls back to the org's default
+        # target (the one flagged `is_default: true`).
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MARKUP_AI_API_KEY: ${{ secrets.MARKUP_AI_API_KEY_PROD }}
