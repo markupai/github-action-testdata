@@ -6,6 +6,6 @@ For customer service, generative AI powers sophisticated chatbots and virtual as
 
 The ability of generative AI to analyze and synthesize vast amounts of data makes it a powerful asset for **data-driven decision-making**. It can identify trends, detect anomalies, and predict outcomes with remarkable precision. This is particularly valuable in financial services, where AI can be used for fraud detection and risk assessment. In retail, it can analyze purchasing patterns to offer highly personalized product recommendations, increasing sales and customer loyalty. Ultimately, generative AI helps businesses make more informed decisions, optimize their operations, and gain a competitive edge.
 
-## A new section for the v2 pilot
+## A New Section for the V2 Pilot
 
 This paragraph was added to exercise the v2 of the Markup AI Content Guardian action. The objective is to validate that risk-based scoring works end-to-end on a real PR; we will be checking how the inline review comments are placed and whether the summary table is rendered correctly.
