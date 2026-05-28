@@ -21,9 +21,11 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Run Markup AI Analysis
-        # v2 pre-release pinned to the commit on PR #335 in markupai/content-guardian-action.
+        # v2 pre-release pinned to the latest commit on PR #335 in
+        # markupai/content-guardian-action (adds review-comment reconciliation:
+        # stale comments are now auto-deleted on re-runs).
         # See https://github.com/markupai/content-guardian-action/pull/335
-        uses: markupai/content-guardian-action@6e6ccc87bb5aa67657fa3663fe5d9637fe0ffbec
+        uses: markupai/content-guardian-action@7d7893d
         with:
           target: Main
         env:
