@@ -21,12 +21,14 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Run Markup AI Analysis
-        uses: markupai/content-guardian-action@v1
+        uses: markupai/content-guardian-action@v2
         with:
-          # valid tones: academic, confident, conversational, empathetic, engaging, friendly, professional, style_guide, technical
-          tone: professional
-          dialect: american_english
-          style-guide: microsoft
+          # v2 replaces v1's dialect/tone/style-guide with a single optional
+          # `style_guide` — a style guide (target) ID or display name from your
+          # Markup AI org. Omit it to use the org's default style guide.
+          # Dialect and tone are now configured on the style guide at
+          # console.markup.ai rather than per-run here.
+          style_guide: Microsoft
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MARKUP_AI_API_KEY: ${{ secrets.MARKUP_AI_API_KEY_PROD }}
