@@ -28,7 +28,7 @@ jobs:
           # Markup AI org. Omit it to use the org's default style guide.
           # Dialect and tone are now configured on the style guide at
           # console.markup.ai rather than per-run here.
-          style_guide: Microsoft
+          style_guide: Microsoft Manual of Style
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MARKUP_AI_API_KEY: ${{ secrets.MARKUP_AI_API_KEY_PROD }}
